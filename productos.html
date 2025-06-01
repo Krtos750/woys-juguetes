@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productos - Woys Juguetes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4caf50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.2rem;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      border-radius: 10px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2rem;
+    }
+
+    .product p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    footer {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    nav {
+  background: #388e3c;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+  <h1>Catálogo de Productos</h1>
+</header>
+
+<nav>
+  <a href="index.html">Inicio</a>
+</nav>
+
+
+  <section class="section">
+    <h2>Juguetes destacados</h2>
+    <div class="products">
+      <div class="product">
+        <img src="conejo.jpg" alt="Móvil de cuna con conejito" />
+        <h3>Móvil de Cuna</h3>
+        <p>Suave y delicado, ideal para la cuna del bebé. Estimula la vista y el oído desde los primeros meses.</p>
+      </div>
+      <div class="product">
+        <img src="tablero.jpg" alt="Rompecabezas educativo 30x30" />
+        <h3>Rompecabezas Educativo</h3>
+        <p>Juego didáctico de madera 30x30 cm. Incluye vocales, formas, números y animales. Ideal para preescolar.</p>
+      </div>
+      <div class="product">
+        <img src="osito.jpg" alt="Un osito suave y achuchable" />
+        <h3>Oso de peluche</h3>
+        <p>Un osito de peluche de material ecofriendly.</p>
+      </div>
+      <div class="product">
+        <img src="madera.jpg" alt="Un osito suave y achuchable" />
+        <h3>Figuras de madera</h3>
+        <p>Unas figuras de madera para conocer distintos animales.</p>
+      </div>
+      <div class="product">
+        <img src="mesa.jpg" alt="Un osito suave y achuchable" />
+        <h3>Mesa de pesca</h3>
+        <p>Un lote de una mesa de pesca que lleva incluidos unos barcos y tractores.</p>
+      </div>
+      <div class="product">
+        <img src="tienda.jpg" alt="Un osito suave y achuchable" />
+        <h3>Tienda de acamampada</h3>
+        <p>Una tienda de acampada en descuento.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Woys Juguetes. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
